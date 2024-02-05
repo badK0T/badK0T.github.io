@@ -1,10 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&display=swap');
 
+
 body{
     font-family: Caveat, serif ;
     font-size: 20px;
     background: linear-gradient(43deg, #4d0c64 15%, #161964 100%);
+
 }
+
 .nav-link{
     color: antiquewhite;
 }
@@ -53,4 +56,59 @@ h2{
 }
 p{ 
     color: wheat;
+}
+
+a{ 
+    text-decoration:none;
+}
+#v-pills-tab{  
+    color: aqua;
+}
+.nav-link-active{
+    background-color: rgb(40, 133, 240);
+    border: none;
+    text-align: center;
+    width: 115px;
+    
+}
+.nav-link-disabled {
+    color: black;
+
+}
+.dr-web img{
+    width: 250px;
+    
+}
+.plus h2{
+    color: rgb(10, 233, 10);
+}
+.minus h2{
+    color: red;
+}
+.dr-web {   
+    color: bisque;
+
+    
+}
+
+.dr-web a{ 
+    float: inline-end;
+}
+
+.avast-antivirus a{ 
+    float: inline-end;
+}
+
+.avast-antivirus img { 
+    width: 225px;
+    margin-top: 25px ;
+}
+
+
+.avast-antivirus{   
+    color: bisque;
+}
+
+.antivirus{ 
+    background-color:rgb(139, 59, 113)  ;
 }
